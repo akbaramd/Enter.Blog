@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Blog.Domain</AssemblyName>
+        <RootNamespace>Blog.Domain</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Enter.ENB.Core" Version="1.0.3" />
+      <PackageReference Include="Enter.ENB.DDD.Domain" Version="1.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blog.Domain.Shared\Blog.Domain.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

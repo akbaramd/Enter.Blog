@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Enter.ENB.AspNetCore" Version="1.0.3" />
+      <PackageReference Include="Enter.ENB.Core" Version="1.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blog.Infrastructure.DataAccess\Blog.Infrastructure.DataAccess.csproj" />
+    </ItemGroup>
+
+</Project>
